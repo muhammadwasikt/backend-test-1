@@ -6,7 +6,7 @@ import { routes } from './routes/routes.js';
 
 const app = express();
 
-const PORT = 'backend-test-1.railway.internal'
+const PORT = 7000
 
 app.listen(PORT , ()=>{
     console.log(`Server is running on port ${PORT}`);
